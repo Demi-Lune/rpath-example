@@ -1,7 +1,8 @@
 # rpath-example
 
-Toy project to show how rpath works.
+Toy project to show how `rpath`, `$ORIGIN` and `LD_DEBUG` work.
 
+Usage:
 ```
 mkdir    bin
 mkdir -p lib/sublib

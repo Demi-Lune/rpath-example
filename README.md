@@ -46,3 +46,8 @@ LD_DEBUG=libs ./bin/a.out
 ```
 
 `LD_DEBUG=help ./bin/a.out` shows other interesting options.
+
+To play with `R[UN]PATH`, without recompiling:
+```
+patchelf --set-rpath '$ORIGIN/sublib' my_lib.so
+```

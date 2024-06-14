@@ -51,3 +51,6 @@ To play with `R[UN]PATH`, without recompiling:
 ```
 patchelf --set-rpath '$ORIGIN/sublib' my_lib.so
 ```
+
+You may like `realpath -s --relative-to=path/to/my/program path/to/my/library` in the previous command.
+
